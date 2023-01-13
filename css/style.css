@@ -418,7 +418,10 @@ background-color: #404BBF;
     align-items: center;
     justify-content: center;
     fill: #8E8F99;
-    transition: border-color var(--transition), fill var(--transition);
+    transition: border-color var(--transition);
+}
+.customers-icon {
+    transition: fill var(--transition);
 }
 .customers-link:hover,
 .customers-link:focus {
